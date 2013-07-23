@@ -1,0 +1,16 @@
+<div class="container">
+  {{view "App.CanvasView" 
+  	lightXBinding="App.mainController.lightX"
+  	sphereXBinding="App.mainController.sphereX"
+  	radiusBinding="App.mainController.radius"
+  	colourBinding="App.mainController.colour"
+  }}
+
+  {{view "App.SliderView" valueBinding="App.mainController.lightX" min=-200 max=200}}
+  {{view "App.SliderView" valueBinding="App.mainController.sphereX" min=-200 max=200}}
+  {{view "App.SliderView" valueBinding="App.mainController.radius" min=0 max=100}}
+  <br>
+  {{view "App.SliderView" valueBinding="App.mainController.red" min=0 max=255}}
+  {{view "App.SliderView" valueBinding="App.mainController.green" min=0 max=255}}
+  {{view "App.SliderView" valueBinding="App.mainController.blue" min=0 max=255}}
+</div>

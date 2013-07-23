@@ -6,7 +6,7 @@ Using three.js in a mozart app.
 
 See http://mozart.io for more details (based on mozart-empty), essentially:
 
-    bundler install
+    bundle install
     npm install
 
 ## Running
